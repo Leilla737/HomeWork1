@@ -32,6 +32,7 @@ int numB = Convert.ToInt32(Console.ReadLine());
 if (numA > numB)
 {
  Console.WriteLine($"Max {numA}, Min {numB}");   
+ 
 }
 
 if (numA < numB);
@@ -220,5 +221,37 @@ string Work(int a)
     return "!";
 }*/
 
-           
+      
+// Домашнее задание урок 6 Одномерные массивы
+ /* Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, 
+ заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; 
+ значения b1, k1, b2 и k2 задаются пользователем.
+
+ Console.WriteLine("введите значение b1");
+double b1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите число k1");
+double k1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите значение b2");
+double b2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите число k2");
+double k2 = Convert.ToInt32(Console.ReadLine());
+
+double x = (-b2 + b1)/(-k1 + k2);
+double y = k2 * x + b2;
+
+Console.WriteLine($"прямые пересекутся в точке Х:  {x}, Y: {y}");*/
+
+//Задача 41: Пользователь вводит с клавиатуры M чисел. 
+  // Посчитайте, сколько чисел больше 0 ввёл пользователь
+// !!!!!!она не работает
+
+/*Console.WriteLine("Введите числа ");
+int m = Convert.ToInt32(Console.ReadLine());
+for (int i = 0; i < m; i++) {
+numbers.Add(Convert.ToInt32(Console.ReadLine()));
+}
+Console.WriteLine(numbers.Where(n => n > 0).Count());
+Console.ReadKey();*/
+
+
 
